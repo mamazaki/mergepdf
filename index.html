@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Merger with Dynamic File Input</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .file-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .file-item {
+            margin: 5px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            cursor: move;
+            background: #f9f9f9;
+        }
+        .file-item:hover {
+            background: #e9e9e9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">ระบบอัปโหลดและรวมไฟล์ PDF</h1>
+        <div class="form-group">
+            <button class="btn btn-primary" onclick="addFileInput()">เพิ่มช่องอัปโหลดไฟล์</button>
+        </div>
+        <ul id="fileInputList" class="file-list"></ul>
+        <div class="form-group">
+            <input type="text" id="outputFilename" class="form-control mt-3" placeholder="ตั้งชื่อไฟล์สำหรับดาวน์โหลด (เช่น merged.pdf)">
+        </div>
+        <button class="btn btn-success mt-3" onclick="mergePDFs()">รวมไฟล์ PDF</button>
+        <a id="downloadLink" class="btn btn-info mt-3" style="display:none;">ดาวน์โหลดไฟล์ที่รวมแล้ว</a>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sortable/1.14.0/Sortable.min.js"></script>
+    <script src="merge.js"></script>
+</body>
+</html>
