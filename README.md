@@ -37,10 +37,6 @@ This project is a simple web application for uploading, ordering, and merging mu
 5. Click the "Merge PDFs" button to merge the files.
 6. Click the "Download Merged PDF" link to download the merged PDF file.
 
-## Screenshots
-
-![Screenshot](screenshot.png)
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
@@ -83,10 +79,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 4. ใส่ชื่อไฟล์สำหรับดาวน์โหลดไฟล์ PDF ที่รวมแล้วในช่องที่เตรียมไว้
 5. คลิกปุ่ม "รวมไฟล์ PDF" เพื่อรวมไฟล์
 6. คลิกที่ลิงก์ "ดาวน์โหลดไฟล์ที่รวมแล้ว" เพื่อดาวน์โหลดไฟล์ PDF ที่รวมแล้ว
-
-## ภาพหน้าจอ
-
-![Screenshot](screenshot.png)
 
 ## ใบอนุญาต
 
