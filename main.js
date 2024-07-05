@@ -26,6 +26,13 @@ function removeFileInput(index) {
     }
 }
 
+function clearForm() {
+    document.getElementById('fileInputList').innerHTML = '';  // ล้างไฟล์ที่อัปโหลด
+    document.getElementById('outputFilename').value = '';  // ล้างช่องชื่อไฟล์
+    document.getElementById('downloadLink').style.display = 'none';  // ซ่อนลิงก์ดาวน์โหลด
+    fileInputCount = 0;
+}
+
 async function mergePDFs() {
     const fileInputList = document.getElementById('fileInputList');
     const items = fileInputList.getElementsByClassName('file-item');
