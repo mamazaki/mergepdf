@@ -22,7 +22,7 @@ This project is a simple web application for uploading, ordering, and merging mu
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/pdf-merger.git
+    git clone https://github.com/mamazaki/mergepdf.git
     cd pdf-merger
     ```
 
@@ -65,7 +65,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 1. โคลนรีโพซิทอรี:
 
     ```bash
-    git clone https://github.com/your-username/pdf-merger.git
+    git clone https://github.com/mamazaki/mergepdf.git
     cd pdf-merger
     ```
 
